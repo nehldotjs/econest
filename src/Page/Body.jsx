@@ -1,5 +1,6 @@
 import React, { useEffect } from "react";
 import "../styles/body.css";
+
 import { HiMiniCalendarDateRange } from "react-icons/hi2";
 import { GoArrowRight } from "react-icons/go";
 import { IoIosColorPalette } from "react-icons/io";

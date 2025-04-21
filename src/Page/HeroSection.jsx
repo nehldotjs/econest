@@ -61,8 +61,10 @@ function HeroSection() {
         <div className="overlay"></div>
         <div className="imageContainer">
           <img
-            src="https://images.pexels.com/photos/247599/pexels-photo-247599.jpeg"
+            src="https://images.pexels.com/photos/1423601/pexels-photo-1423601.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
             alt="Photo by Pixabay: https://www.pexels.com/photo/scenic-view-of-rice-paddy-247599/ "
+            // src="https://images.pexels.com/photos/247599/pexels-photo-247599.jpeg"
+            // alt="Photo by Pixabay: https://www.pexels.com/photo/scenic-view-of-rice-paddy-247599/ "
           />
         </div>
       </div>
