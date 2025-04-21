@@ -1,28 +1,26 @@
 import React from "react";
 import "../styles/nav.css";
-// import mainlogo from "../Assets/ChatGPT Image Apr 16, 2025, 12_15_17 AM.png";
-import styled from "styled-components";
+ import styled from "styled-components";
 function Nav() {
   return (
     <div className="nav">
       <div className="nav-wrapper">
         <div className="nav-logoWrapper">
-          {/* <img src={mainlogo} alt="" /> */}
-          <h3>Econest</h3>
+           <h3>Econest</h3>
         </div>
         <div className="nav-linkBtnWrapper">
-          <a href="" className="navBtnLinks">
+          <h4 href="#" className="navBtnLinks">
             Manifesto
-          </a>
-          <a href="" className="navBtnLinks">
+          </h4>
+          <h4 href="#" className="navBtnLinks">
             Issues
-          </a>
-          <a href="" className="navBtnLinks">
-            Libary
-          </a>
-          <a href="" className="navBtnLinks">
+          </h4>
+          <h4 href="#" className="navBtnLinks">
+            Library
+          </h4>
+          <h4 href="#" className="navBtnLinks">
             Contacts
-          </a>
+          </h4>
         </div>
         <div className="nav-getStartedBtn">
           <StyledWrapper>

@@ -14,7 +14,7 @@ function HeroSection() {
           </h2>
           <p>
             A weekly dive into the intersection of creativity, technology, and
-            nature — reimagining how we live, work, and connect.
+            nature — re-imagining how we live, work, and connect.
           </p>{" "}
           <div className="hero-newsLetter-emailInput">
             <IoMail />
@@ -62,9 +62,7 @@ function HeroSection() {
         <div className="imageContainer">
           <img
             src="https://images.pexels.com/photos/1423601/pexels-photo-1423601.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
-            alt="Photo by Pixabay: https://www.pexels.com/photo/scenic-view-of-rice-paddy-247599/ "
-            // src="https://images.pexels.com/photos/247599/pexels-photo-247599.jpeg"
-            // alt="Photo by Pixabay: https://www.pexels.com/photo/scenic-view-of-rice-paddy-247599/ "
+            alt="Scenic view of green rice fields and distant hills"
           />
         </div>
       </div>
