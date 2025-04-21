@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect } from "react";
 import "../styles/body.css";
 import { HiMiniCalendarDateRange } from "react-icons/hi2";
 import { GoArrowRight } from "react-icons/go";
@@ -7,6 +7,9 @@ import { FaLeaf } from "react-icons/fa";
 import { LiaMoneyBillWaveSolid } from "react-icons/lia";
 import { FaStar } from "react-icons/fa";
 import { MdMail } from "react-icons/md";
+
+import AOS from "aos";
+import "aos/dist/aos.css";
 
 function Body() {
   const cardData = [
@@ -17,7 +20,7 @@ function Body() {
         "https://images.pexels.com/photos/7242744/pexels-photo-7242744.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
       date: "Mar 2025",
       header: "Green digital products",
-      desc: "Simple ways companies are reducing the enviromental impact of their websites and apps."
+      desc: "Simple ways companies are reducing the environmental impact of their websites and apps."
     },
     {
       id: 2,
@@ -92,9 +95,17 @@ function Body() {
       occupation: "frontend developer, sustain tech solutions"
     }
   ];
+
+  useEffect(() => {
+    AOS.init({
+      duration: 1000, // animation duration
+      once: true // animation should happen only once
+    });
+  }, []);
+
   return (
     <div className="bodyWrapper">
-      <div className="insight">
+      <div className="insight" >
         <div className="insight-article">
           <div className="article1">
             <p className="insight-header">Latest insight</p>
@@ -106,7 +117,7 @@ function Body() {
             </p>
           </div>
           <div className="article2">
-            <a>
+            <a href="#"> 
               View all articles <GoArrowRight />
             </a>
           </div>
