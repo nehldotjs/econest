@@ -1,26 +1,26 @@
 import React from "react";
 import "../styles/nav.css";
- import styled from "styled-components";
+import styled from "styled-components";
 function Nav() {
   return (
     <div className="nav">
       <div className="nav-wrapper">
         <div className="nav-logoWrapper">
-           <h3>Econest</h3>
+          <h3>Econest</h3>
         </div>
         <div className="nav-linkBtnWrapper">
-          <h4 href="#" className="navBtnLinks">
+          <a href="" className="navBtnLinks">
             Manifesto
-          </h4>
-          <h4 href="#" className="navBtnLinks">
+          </a>
+          <a href="" className="navBtnLinks">
             Issues
-          </h4>
-          <h4 href="#" className="navBtnLinks">
+          </a>
+          <a href="" className="navBtnLinks">
             Library
-          </h4>
-          <h4 href="#" className="navBtnLinks">
+          </a>
+          <a href="" className="navBtnLinks">
             Contacts
-          </h4>
+          </a>
         </div>
         <div className="nav-getStartedBtn">
           <StyledWrapper>
@@ -43,7 +43,6 @@ function Nav() {
     </div>
   );
 }
-
 
 const StyledWrapper = styled.div`
   .Download-button {
