@@ -3,11 +3,11 @@
     "main.css": "/econest/static/css/main.0a7c3aea.css",
     "main.js": "/econest/static/js/main.93264f1c.js",
     "index.html": "/econest/index.html",
-    "main.0a7c3aea.css.map": "/econest/static/css/main.0a7c3aea.css.map",
-    "main.93264f1c.js.map": "/econest/static/js/main.93264f1c.js.map"
+    "main.css.map": "/econest/static/css/main.0a7c3aea.css.map",
+    "main.js.map": "/econest/static/js/main.93264f1c.js.map"
   },
   "entrypoints": [
-    "static/css/main.0a7c3aea.css",
-    "static/js/main.93264f1c.js"
+    "/econest/static/css/main.0a7c3aea.css",
+    "/econest/static/js/main.93264f1c.js"
   ]
 }
