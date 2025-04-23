@@ -59,7 +59,8 @@
                 position: relative;
                 color: darkgray;
                 text-decoration: none;
-                background-color: red;
+                border: none;
+                background: transparent;
 
             }
 
@@ -163,13 +164,16 @@
             font-weight: 500;
         }
 
-        a {
+        button {
             color: green;
             text-decoration: none;
             display: flex;
             justify-content: center;
             align-items: center;
+            background-color: transparent;
+            border: none;
             gap: 10px;
+            cursor: pointer;
         }
     }
 

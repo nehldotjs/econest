@@ -50,7 +50,7 @@ function Body() {
       header: "Design Systems & Strategies",
       desc: "Explore innovative tools, frameworks, and design methods that drive both productivity and eco-conscious solutions."
     },
-    { 
+    {
       id: 2,
       icon: <IoIosColorPalette />,
       header: "Resource & Community Network",
@@ -99,14 +99,14 @@ function Body() {
 
   useEffect(() => {
     AOS.init({
-      duration: 1000,  // animation duration
+      duration: 1000, // animation duration
       once: true // animation should happen only once
     });
   }, []);
 
   return (
     <div className="bodyWrapper">
-      <div className="insight" >
+      <div className="insight">
         <div className="insight-article">
           <div className="article1">
             <p className="insight-header">Latest insight</p>
@@ -118,7 +118,7 @@ function Body() {
             </p>
           </div>
           <div className="article2">
-            <button type="button"> 
+            <button type="button">
               View all articles <GoArrowRight />
             </button>
           </div>
@@ -143,9 +143,11 @@ function Body() {
               <div className=" card-header">{header}</div>
               <div className="card-desc">{desc}</div>
 
-              <a href="#">
+              <button
+                type="button"
+                onClick={() => alert("THIS ACTION IS NOT AVAILABLE YET")}>
                 Read more <GoArrowRight />
-              </a>
+              </button>
             </div>
           );
         })}
