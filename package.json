@@ -1,8 +1,8 @@
 {
+  "homepage": "https://nehldotjs.github.io/econest/",
   "name": "econest",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://nehldotjs.github.io/econest/",
   "description": "EcoNest - Weekly design inspiration at the intersection of tech and nature.",
   "author": "Nehldotjs",
   "license": "MIT",
@@ -11,6 +11,7 @@
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "react-icons": "^5.5.0",
+    "react-router-dom": "^7.5.1",
     "react-scripts": "5.0.1",
     "styled-components": "^6.1.17",
     "web-vitals": "^2.1.4"
