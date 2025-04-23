@@ -99,7 +99,7 @@ function Body() {
 
   useEffect(() => {
     AOS.init({
-      duration: 1000, // animation duration
+      duration: 1000,  // animation duration
       once: true // animation should happen only once
     });
   }, []);
