@@ -50,7 +50,7 @@ function Body() {
       header: "Design Systems & Strategies",
       desc: "Explore innovative tools, frameworks, and design methods that drive both productivity and eco-conscious solutions."
     },
-    {
+    { 
       id: 2,
       icon: <IoIosColorPalette />,
       header: "Resource & Community Network",
