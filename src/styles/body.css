@@ -50,7 +50,7 @@
         .article2 {
             display: flex;
 
-            a {
+            button {
                 align-items: flex-end;
                 justify-content: flex-start;
                 display: flex;
@@ -59,14 +59,15 @@
                 position: relative;
                 color: darkgray;
                 text-decoration: none;
+                background-color: red;
 
             }
 
-            a:hover {
+            button:hover {
                 color: gray;
             }
 
-            a::before {
+            button::before {
                 content: "";
                 display: flex;
                 width: 40%;
@@ -79,7 +80,7 @@
 
             }
 
-            a:hover::before {
+            button:hover::before {
                 width: 100%;
             }
         }

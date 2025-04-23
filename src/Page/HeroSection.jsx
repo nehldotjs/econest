@@ -3,6 +3,7 @@ import "../styles/Hero.css";
 import Nav from "./Nav";
 import { IoMail } from "react-icons/io5";
 import greenpeace from "../Assets/GREENPEACE.png";
+import backGroundImage from "../Assets/landscapeImage.jpeg";
 
 function HeroSection() {
   return (
@@ -65,10 +66,8 @@ function HeroSection() {
         <div className="imageContainer">
           <img
             loading="lazy"
-            src="https://images.pexels.com/photos/1275415/pexels-photo-1275415.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
-            alt="Scenic rice paddy view - Photo by Pixabay"
-            // src="https://images.pexels.com/photos/247599/pexels-photo-247599.jpeg"
-            // alt="Scenic rice paddy view - Photo by Pixabay"
+            src={backGroundImage}
+            alt="Scenic rice paddy view - Photo by Pixabay" 
           />
         </div>
       </div>

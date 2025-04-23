@@ -118,9 +118,9 @@ function Body() {
             </p>
           </div>
           <div className="article2">
-            <a href="#"> 
+            <button type="button"> 
               View all articles <GoArrowRight />
-            </a>
+            </button>
           </div>
         </div>
       </div>
