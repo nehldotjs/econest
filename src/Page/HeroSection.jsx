@@ -62,13 +62,14 @@ function HeroSection() {
 
       {/* Background Image Section */}
       <div className="hero-backgroundImgWrapper">
-        <div className="overlay"></div>
-        <div className="imageContainer">
-          <img
-            loading="lazy"
-            src={backGroundImage}
-            alt="Scenic rice paddy view - Photo by Pixabay" 
-          />
+        <div className="hero-bckImg-handler">
+          <div className="imageContainer">
+            <img
+              loading="lazy"
+              src={backGroundImage}
+              alt="Scenic rice paddy view - Photo by Pixabay"
+            />
+          </div>
         </div>
       </div>
     </div>
