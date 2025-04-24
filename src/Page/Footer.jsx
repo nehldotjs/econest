@@ -13,38 +13,38 @@ function Footer() {
         </div>
         <div className="link1Wrapper">
           <h3>Navigation</h3>
-          <a href="#" className="footerLink">
+          <button type="button" className="footerLink">
             Home
-          </a>
-          <a href="#" className="footerLink">
+          </button>
+          <button type="button" className="footerLink">
             About
-          </a>
-          <a href="#" className="footerLink">
+          </button>
+          <button type="button" className="footerLink">
             Features
-          </a>
-          <a href="#" className="footerLink">
+          </button>
+          <button type="button" className="footerLink">
             Article
-          </a>
+          </button>
         </div>
         <div className="link1Wrapper">
           <h3>Legal</h3>
-          <a href="#" className="footerLink">
+          <button type="button" className="footerLink">
             Privacy Policy
-          </a>
-          <a href="#" className="footerLink">
+          </button>
+          <button type="button" className="footerLink">
             Term Of Service
-          </a>
-          <a href="#" className="footerLink">
+          </button>
+          <button type="button" className="footerLink">
             Cookie Policy
-          </a>
-          <a href="#" className="footerLink">
+          </button>
+          <button type="button" className="footerLink">
             Help Center
-          </a>
+          </button>
         </div>
       </div>
-        <p className="copyright">
-          &copy; 2025 Econest newsletter. All rights reserved.
-        </p>
+      <p className="copyright">
+        &copy; 2025 Econest newsletter. All rights reserved.
+      </p>
     </div>
   );
 }
