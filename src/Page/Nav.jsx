@@ -11,18 +11,18 @@ function Nav() {
           <h3>Econest</h3>
         </div>
         <div className="nav-linkBtnWrapper">
-          <a href="" className="navBtnLinks">
+          <button   className="navBtnLinks">
             Manifesto
-          </a>
-          <a href="" className="navBtnLinks">
+          </button>
+          <button   className="navBtnLinks">
             Issues
-          </a>
-          <a href="" className="navBtnLinks">
+          </button>
+          <button   className="navBtnLinks">
             Libary
-          </a>
-          <a href="" className="navBtnLinks">
+          </button>
+          <button   className="navBtnLinks">
             Contacts
-          </a>
+          </button>
         </div>
         <div className="nav-getStartedBtn">
           <StyledWrapper>
