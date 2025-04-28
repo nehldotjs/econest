@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/econest/static/css/main.13415811.css",
+    "main.js": "/econest/static/js/main.2d12bf87.js",
+    "static/js/453.34b4bfa4.chunk.js": "/econest/static/js/453.34b4bfa4.chunk.js",
+    "static/media/landscapeImage.jpeg": "/econest/static/media/landscapeImage.bb9863a4f570876cc2eb.jpeg",
+    "index.html": "/econest/index.html",
+    "main.13415811.css.map": "/econest/static/css/main.13415811.css.map",
+    "main.2d12bf87.js.map": "/econest/static/js/main.2d12bf87.js.map",
+    "453.34b4bfa4.chunk.js.map": "/econest/static/js/453.34b4bfa4.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.13415811.css",
+    "static/js/main.2d12bf87.js"
+  ]
+}
