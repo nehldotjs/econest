@@ -818,7 +818,7 @@
         .card {
             border-radius: 10px;
             box-shadow: 2px 5px 5px #53b94a81;
-            width: 70%;
+            width: 80%;
             display: flex;
             flex: 1;
             height: 100%;
@@ -827,7 +827,7 @@
             align-items: flex-start;
             flex-wrap: wrap;
             gap: 3px;
-            padding: 20px;
+            padding: 10px;
 
             .card-imageWrapper {
                 width: 100%;

@@ -22,7 +22,7 @@ function Footer() {
           </p>
         </div>
         <div className="footerLinksWrapper">
-          <div className="link1Wrapper" data-aos="fade-up">
+          <div className="link1Wrapper"  >
             <h3>Navigation</h3>
             <button type="button" className="footerLink">
               Home
@@ -37,7 +37,7 @@ function Footer() {
               Article
             </button>
           </div>
-          <div className="link1Wrapper" data-aos="fade-up">
+          <div className="link1Wrapper"  >
             <h3>Legal</h3>
             <button type="button" className="footerLink">
               Privacy Policy
@@ -54,7 +54,7 @@ function Footer() {
           </div>
         </div>
       </div>
-      <p className="copyright" data-aos="fade-up">
+      <p className="copyright">
         &copy; 2025 Econest newsletter. All rights reserved.
       </p>
     </div>
