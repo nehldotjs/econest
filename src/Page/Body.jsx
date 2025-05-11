@@ -13,16 +13,13 @@ import AOS from "aos";
 import "aos/dist/aos.css";
 
 function Body() {
- 
-  useEffect(() => { 
+  useEffect(() => {
     AOS.init({
       duration: 1000, // animation duration in ms
       once: true // whether animation should happen only once
     });
+  }, []);
 
-   }, []);
-
- 
   const cardData = [
     {
       id: 1,
@@ -58,24 +55,28 @@ function Body() {
       id: 1,
       icon: <IoIosColorPalette />,
       header: "Design Systems & Strategies",
+      anim: "fade-right",
       desc: "Explore innovative tools, frameworks, and design methods that drive both productivity and eco-conscious solutions."
     },
     {
       id: 2,
       icon: <IoIosColorPalette />,
       header: "Resource & Community Network",
+      anim: "fade-right",
       desc: "Gain access to a handpicked network of resources, communities, and events centered around sustainable design practices."
     },
     {
       id: 3,
       icon: <FaLeaf />,
       header: "Green Tools & Sustainable Assets",
+      anim: "fade-right",
       desc: "Uncover eco-friendly design tools and assets that support environmentally responsible creative workflows."
     },
     {
       id: 4,
       icon: <LiaMoneyBillWaveSolid />,
       header: "Sustainability in Action",
+      anim: "fade-right",
       desc: "Discover real-life examples of top brands embedding sustainability into their design processes and products."
     }
   ];
@@ -179,9 +180,9 @@ function Body() {
 
       <div className="goals-cardWrapper">
         {goalCardData.map((x) => {
-          const { id, icon, header, desc } = x;
+          const { id, icon, header, desc, anim } = x;
           return (
-            <div className="goal-card" key={id} data-aos="fade-up">
+            <div className="goal-card" key={id} data-aos={anim}>
               <div className="goalCard-iconWrapper">{icon}</div>
               <div className="goalCard-descWrapper">
                 <h3>{header}</h3> <p>{desc} </p>

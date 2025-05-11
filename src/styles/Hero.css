@@ -1,10 +1,9 @@
-.heroSection {}
-
-
+/* Base Styles */
 .heroSectionWrapper {
     display: flex;
     height: 40rem;
-    width: 100%;
+    width: 85%;
+    margin: auto;
     justify-content: space-between;
     flex-direction: column;
     align-items: center;
@@ -15,26 +14,26 @@
         display: flex;
         flex-direction: column;
         position: relative;
-        width: 80%;
         height: 100%;
-        padding: 2% 0px;
+        padding: 2% 0;
         justify-content: space-between;
         align-items: flex-start;
-
 
         .hero-writeUp {
             display: flex;
             flex-direction: column;
             justify-content: space-evenly;
             gap: 30px;
-            width: 30rem;
             height: auto;
             color: white;
-
 
             h2 {
                 font-size: 50px;
                 font-weight: 500;
+                width: 100%;
+            }
+
+            p {
                 width: 100%;
             }
 
@@ -53,14 +52,11 @@
 
                 input {
                     height: 100%;
-                    display: flex;
                     flex: 1;
                     outline: none;
                     border: none;
                     color: white;
-
                     background-color: transparent;
-
                 }
 
                 input::placeholder {
@@ -68,12 +64,10 @@
                     color: whitesmoke;
                 }
 
-
                 button {
                     border: none;
                     color: white;
-                    /* width: 100%; */
-                    padding: 0px 20px;
+                    padding: 0 20px;
                     height: 100%;
                     border-radius: 10px;
                     text-transform: capitalize;
@@ -89,7 +83,7 @@
             color: whitesmoke;
             align-items: center;
             width: 100%;
-            padding: 20px 0px;
+            padding: 20px 0;
             border-top: 1px solid rgba(245, 245, 245, 0.63);
 
             .hero-footer-text {
@@ -105,14 +99,13 @@
                 align-items: center;
                 gap: 20px;
 
-
                 .bbc {
                     display: flex;
                     flex-direction: column;
                     align-items: center;
                     justify-content: center;
                     color: whitesmoke;
-                    opacity: .5;
+                    opacity: 0.5;
 
                     .bbcLogo {
                         font-weight: 600;
@@ -124,14 +117,14 @@
                     height: 20px;
                     width: auto;
                     display: flex;
-                    opacity: .5;
+                    opacity: 0.5;
                 }
 
                 .notion {
                     align-items: center;
                     justify-content: center;
                     gap: 3px;
-                    opacity: .5;
+                    opacity: 0.5;
                     height: auto;
                     width: auto;
                     display: flex;
@@ -159,13 +152,15 @@
     width: 100%;
     position: fixed;
     z-index: -1;
-    top: 0px;
+    top: 0;
+    background-color: #000;
+    overflow: hidden;
 
     .hero-bckImg-handler {
         display: flex;
         height: 100%;
         width: 100%;
-        background-color: #000000;
+        background-color: black;
         justify-content: center;
         align-items: center;
     }
@@ -176,429 +171,97 @@
         height: 100%;
         object-fit: cover;
         position: relative;
-        opacity: .5;
+        opacity: 0.5;
     }
-
 }
 
-/* Tablet responsive */
-
-@media (max-width: 800px) {
-    .heroSection {
-        /* background-color: blue; */
-    }
-
-    .heroSectionWrapper {
-        display: flex;
-        height: 40rem;
-        width: 100%;
-        justify-content: space-between;
-        flex-direction: column;
-        align-items: center;
-        overflow: hidden;
-        position: relative;
-
-        .hero-contentWrapper {
-            display: flex;
-            flex-direction: column;
-            position: relative;
-            width: 90%;
-            height: 100%;
-            padding: 2% 0px;
-            justify-content: space-between;
-            align-items: flex-start;
-
-
-            .hero-writeUp {
-                display: flex;
-                flex-direction: column;
-                justify-content: space-evenly;
-                gap: 30px;
-                width: 30rem;
-                height: auto;
-                color: white;
-
-
-                h2 {
-                    font-size: 50px;
-                    font-weight: 500;
-                    width: 100%;
-                }
-
-                .hero-newsLetter-emailInput {
-                    display: flex;
-                    background-color: rgba(112, 112, 112, 0.438);
-                    backdrop-filter: blur(5px);
-                    font-size: 20px;
-                    height: 50px;
-                    align-items: center;
-                    justify-content: space-evenly;
-                    gap: 5px;
-                    padding: 10px;
-                    border-radius: 15px;
-                    color: rgb(204, 204, 204);
-
-                    input {
-                        height: 100%;
-                        display: flex;
-                        flex: 1;
-                        outline: none;
-                        border: none;
-                        color: white;
-
-                        background-color: transparent;
-
-                    }
-
-                    input::placeholder {
-                        padding-left: 10px;
-                        color: whitesmoke;
-                    }
-
-
-                    button {
-                        border: none;
-                        color: white;
-                        /* width: 100%; */
-                        padding: 0px 20px;
-                        height: 100%;
-                        border-radius: 10px;
-                        text-transform: capitalize;
-                        background-color: rgba(0, 0, 0, 0.521);
-                        cursor: pointer;
-                    }
-                }
-            }
-
-            .hero-footerSection {
-                display: flex;
-                justify-content: space-between;
-                color: whitesmoke;
-                align-items: center;
-                width: 100%;
-                padding: 20px 0px;
-                border-top: 1px solid rgba(245, 245, 245, 0.63);
-
-                .hero-footer-text {
-                    display: flex;
-                    flex: 1;
-                    font-size: 15px;
-                }
-
-                .sponsors {
-                    display: flex;
-                    flex: 1.5;
-                    justify-content: flex-end;
-                    align-items: center;
-                    gap: 20px;
-
-
-                    .bbc {
-                        display: flex;
-                        flex-direction: column;
-                        align-items: center;
-                        justify-content: center;
-                        color: whitesmoke;
-                        opacity: .5;
-
-                        .bbcLogo {
-                            font-weight: 600;
-                            letter-spacing: 2px;
-                        }
-                    }
-
-                    .logo {
-                        height: 20px;
-                        width: auto;
-                        display: flex;
-                        opacity: .5;
-                    }
-
-                    .notion {
-                        align-items: center;
-                        justify-content: center;
-                        gap: 3px;
-                        opacity: .5;
-                        height: auto;
-                        width: auto;
-                        display: flex;
-                        mix-blend-mode: screen;
-                        font-weight: bold;
-                        text-transform: capitalize;
-
-                        img {
-                            height: 50px;
-                            object-fit: cover;
-                            width: auto;
-                            display: flex;
-                        }
-                    }
-                }
-            }
-        }
-    }
-
+/* Tablet Styles */
+@media (min-width: 601px) and (max-width: 800px) {
     .hero-contentWrapper {
-        display: flex;
-        flex-direction: column;
-        position: relative;
         width: 90%;
-        height: 100%;
-        padding: 2% 0px;
-        justify-content: space-between;
-        align-items: flex-start;
     }
 
     .hero-writeUp {
-        P {
-            width: 80%;
-            font-size: 12px;
-        }
-
-        .hero-newsLetter-emailInput {
-            height: 30px;
-            font-size: 12px;
-
-        }
+        width: 100%;
+        background-color: rgba(255, 123, 0, 0.78);
     }
 
-    .hero-footerSection {
-        display: flex;
-        flex-direction: column;
-        justify-content: space-between;
-        color: whitesmoke;
-        align-items: center;
-        width: 100%;
-        padding: 20px 0px;
-        border-top: 1px solid rgba(245, 245, 245, 0.63);
-        gap: 30px;
-
-        .hero-footer-text {
-            flex: 1;
-            font-size: 8px;
-
-        }
+    .logo {
+        height: 50px;
     }
 
-    .sponsors {
-        display: flex;
-        width: 100%;
-        justify-content: space-between;
-        align-items: center;
+    .notion img {
+        height: 5px;
+    }
 
-
-        .bbc {
-            display: flex;
-            flex-direction: column;
-            align-items: center;
-            justify-content: center;
-            color: whitesmoke;
-            opacity: .5;
-            margin: auto;
-
-            .bbcLogo {
-                font-weight: 100;
-                letter-spacing: 2px;
-                font-size: 12px;
-            }
-        }
-
-        .logo {
-            height: 50px;
-            width: auto;
-            display: flex;
-            opacity: .5;
-            margin: auto;
-        }
-
-        .notion {
-            align-items: center;
-            justify-content: center;
-            gap: 3px;
-            opacity: .5;
-            height: auto;
-            width: auto;
-            display: flex;
-            mix-blend-mode: screen;
-            font-weight: bold;
-            text-transform: capitalize;
-            margin: auto;
-
-            img {
-                height: 5px;
-                object-fit: cover;
-                width: auto;
-                display: flex;
-            }
-        }
+    .bbc .bbcLogo {
+        font-weight: 100;
+        font-size: 12px;
     }
 }
 
-/* Mobile responsive */
-
-@media (max-width:500px) {
-
-    .heroSection {
-        display: flex;
-        width: 100%;
-        padding: 0px;
-    }
-
+/* Mobile Styles */
+@media (max-width: 600px) {
     .heroSectionWrapper {
-        display: flex;
-        height: 40rem;
-        width: 100%;
-        justify-content: space-between;
-        flex-direction: column;
-        align-items: center;
-        overflow: hidden;
-        position: relative;
-
         .hero-contentWrapper {
-            display: flex;
-            flex-direction: column;
-            position: relative;
             width: 85%;
-            height: 100%;
-            padding: 2% 0px;
-            justify-content: space-between;
-            align-items: flex-start;
-
 
             .hero-writeUp {
-                display: flex;
-                flex-direction: column;
-                justify-content: space-evenly;
-                gap: 30px;
-                width: 100%;
-                height: auto;
-                color: white;
-
+                justify-content: center;
+                align-items: center;
+                gap: 25px;
+                position: absolute;
+                margin: auto;
+                top: 0;
+                bottom: 0;
+                /* background-color: #6467fa85; */
 
                 h2 {
                     font-size: 35px;
-                    font-weight: 500;
-                    width: 100%;
                 }
 
                 p {
                     font-size: 12px;
                 }
-
-                .hero-newsLetter-emailInput {
-                    display: flex;
-                    background-color: rgba(112, 112, 112, 0.438);
-                    backdrop-filter: blur(5px);
-                    font-size: 20px;
-                    height: 50px;
-                    align-items: center;
-                    justify-content: space-evenly;
-                    gap: 5px;
-                    padding: 10px;
-                    border-radius: 15px;
-                    color: rgb(204, 204, 204);
-                    width: 100%;
-
-                    input {
-                        height: 100%;
-                        display: flex;
-                        flex: 1;
-                        outline: none;
-                        border: none;
-                        color: white;
-
-                        background-color: transparent;
-
-                    }
-
-                    input::placeholder {
-                        padding-left: 10px;
-                        color: whitesmoke;
-                    }
-
-
-                    button {
-                        border: none;
-                        color: white;
-                        /* width: 100%; */
-                        padding: 0px 20px;
-                        height: 100%;
-                        border-radius: 10px;
-                        text-transform: capitalize;
-                        background-color: rgba(0, 0, 0, 0.521);
-                        cursor: pointer;
-                    }
-                }
             }
 
             .hero-footerSection {
-                display: flex;
-                justify-content: space-between;
-                color: whitesmoke;
-                align-items: center;
-                width: 100%;
-                padding: 10px 0px;
-                border-top: 1px solid rgba(245, 245, 245, 0.63);
+                flex-direction: column;
+                gap: 20px;
+                padding-bottom: 0;
 
                 .hero-footer-text {
-                    display: flex;
-                    flex: 1;
-                    font-size: 12px;
+                    width: 100%;
+                    font-size: 14px;
                 }
 
                 .sponsors {
-                    display: flex;
-                    flex: 1.5;
-                    justify-content: space-evenly;
-                    align-items: center;
+                    width: 100%;
+                    justify-content: space-between;
                     gap: unset;
 
-
                     .bbc {
-                        display: flex;
-                        flex-direction: column;
-                        align-items: center;
-                        justify-content: center;
-                        color: whitesmoke;
-                        opacity: .5;
                         width: auto;
 
                         svg {
-                            height: 15px;
+                            height: 20px;
                         }
 
                         .bbcLogo {
                             font-size: 12px;
                             font-weight: 600;
-                            letter-spacing: 2px;
                         }
                     }
 
                     .logo {
                         height: 15px;
-                        width: auto;
-                        display: flex;
-                        opacity: .5;
                     }
 
                     .notion {
-                        align-items: center;
-                        justify-content: center;
-                        gap: 3px;
-                        opacity: .5;
-                        height: auto;
-                        width: auto;
-                        display: flex;
-                        mix-blend-mode: screen;
-                        font-weight: bold;
                         font-size: 12px;
-                        text-transform: capitalize;
 
                         img {
                             height: 20px;
-                            object-fit: cover;
-                            width: auto;
-                            display: flex;
                         }
                     }
                 }
@@ -606,51 +269,7 @@
         }
     }
 
-
-    .hero-writeUp {
-        P {
-            width: 100%;
-            height: auto;
-            font-size: 12px;
-
-        }
-
-        .hero-newsLetter-emailInput {
-            height: 30px;
-            font-size: 12px;
-
-        }
-    }
-
-    .hero-backgroundImgWrapper {
-        justify-content: center;
-        align-items: center;
-        display: flex;
+    .hero-backgroundImgWrapper img {
         height: 100vh;
-        width: 100%;
-        position: fixed;
-        z-index: -1;
-        top: 0px;
-        overflow: hidden;
-        background-color: blue;
-
-        .hero-bckImg-handler {
-            display: flex;
-            height: 100%;
-            width: 100%;
-            background-color: #000000;
-            justify-content: center;
-            align-items: center;
-        }
-
-        img {
-            display: flex;
-            width: 100%;
-            height: 100%;
-            object-fit: cover;
-            position: relative;
-            opacity: .5;
-        }
-
     }
 }

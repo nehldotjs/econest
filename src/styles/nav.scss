@@ -209,7 +209,7 @@
     z-index: 998;
     display: none;
     padding-top: 30px;
-    background-color: rgba(0, 0, 0, 0.897);
+    background-color: rgb(56, 90, 56);
     backdrop-filter: blur(5px);
     justify-content: center;
     flex-direction: column;
@@ -222,18 +222,21 @@
     transition: all 350ms ease-in-out;
     top: 0px;
 
+    animation: cubic-bezier(0.25, 1, 0.5, 1);
+
     .menuLinkBtn {
       justify-content: center;
       flex-direction: column;
       align-items: center;
       display: flex;
-      padding: 20px;
+      padding: 20px 0px;
+      padding-bottom: 40px;
       gap: 10px;
 
       button {
         border: none;
         background: none;
-        font-size: 30px;
+        font-size: 20px;
         font-weight: bolder;
         color: white;
       }
